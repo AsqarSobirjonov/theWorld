@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  width: 80%;
+  // margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  position: sticky;
+
+  &_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_item {
+      width: 100px;
+    }
+  }
+}
+.my {
+  color: rgba(0, 255, 255);
+}
+.button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  color: blue;
+  background-color: rgba(0, 255, 255);
+}
+.navbar_list_item :hover {
+  transition: 0.5s;
+  background-color: black;
+}
